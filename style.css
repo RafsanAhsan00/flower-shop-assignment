@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Quantico', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.common-btn{
+    border-radius: 6px;
+    border: none;
+    background-color: #E55473;
+    color: white;
+    padding: 20px 40px;
+}
+/* Header style starts from here */
+.header-container {
+    width: auto;
+    height: 90vh;
+    background-color: rgba(229, 84, 115, 0.225);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h-img {
+    padding-top: 70px;
+}
+.header-title{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+.header-desciption{
+color:rgba(0, 0, 0, 0.447);
+font-size: 18px;
+font-weight:bolder;
+padding: 30px 0px;
+}
