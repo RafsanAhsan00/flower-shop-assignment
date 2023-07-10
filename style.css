@@ -35,7 +35,7 @@ body{
 .header-title{
 color: #272727;
 font-size: 80px;
-font-weight: 800;
+font-weight: bolder;
 }
 .header-desciption{
 color:rgba(0, 0, 0, 0.447);
@@ -43,3 +43,58 @@ font-size: 18px;
 font-weight:bolder;
 padding: 30px 0px;
 }
+/* featured style starts from here */
+.featured-text{
+    text-align: center;
+}
+
+
+.flower-img1{
+    width: 300px;
+    height:450px ;
+    border-radius: 200px 200px 0px 0px;
+    background-color: rgba(255, 192, 203, 0.847);
+    padding: 40px 40px 0px 40px ;   
+}
+.flower-img2{
+    width: 300px;
+    height:450px ;
+    border-radius: 200px 200px 0px 0px;
+    background-color:rgba(135, 207, 235, 0.469);
+    padding: 40px 40px 0px 40px ;   
+}
+.flower-img3{
+    width: 300px;
+    height:450px ;
+    border-radius: 200px 200px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 40px 40px 0px 40px ;   
+}
+.featured-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 90px;
+    
+}
+.flower-name{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.featured-title{
+font-size: 40px;
+font-weight: bolder;
+padding-bottom: 45px;
+}
+.featured-description{
+color: rgba(0, 0, 0, 0.642);
+font-size: 20px;
+padding-bottom: 48px;
+}
+.featured-container{
+    padding: 80px 0px;
+}
+
+  
