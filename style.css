@@ -22,6 +22,10 @@ body {
     padding: 20px 40px;
     font-size: 20px;
 }
+.word-color{
+    color:#E55473;
+}
+
 
 /* Header style starts from here */
 .header-container {
@@ -49,6 +53,7 @@ body {
     font-weight: bolder;
     padding: 30px 0px;
 }
+
 
 /* featured style starts from here */
 .featured-text {
@@ -133,4 +138,27 @@ font-size: 40px;
 }
 .sale-details{
     text-align: center;
+}
+
+/* instagram style starts from here */
+.instagram-details{
+    text-align: center;
+}
+.instagram-img{
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 0px 70px;
+padding-top: 30px;
+}
+.instagram-container{
+    margin: 30px 0px;
+}
+.insta-title{
+    font-size: 40px;
+}
+.insta-description{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.642);
+    padding: 30px 0px;
 }
