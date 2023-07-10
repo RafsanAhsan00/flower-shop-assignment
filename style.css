@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Acme', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -12,13 +13,16 @@ body{
     font-family: 'Tilt Warp', cursive;
     font-family: 'Ubuntu', sans-serif;
 }
-.common-btn{
+/* shared style */
+.common-btn {
     border-radius: 6px;
     border: none;
     background-color: #E55473;
     color: white;
     padding: 20px 40px;
+    font-size: 20px;
 }
+
 /* Header style starts from here */
 .header-container {
     width: auto;
@@ -32,69 +36,101 @@ body{
 .h-img {
     padding-top: 67px;
 }
-.header-title{
-color: #272727;
-font-size: 80px;
-font-weight: bolder;
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: bolder;
 }
-.header-desciption{
-color:rgba(0, 0, 0, 0.447);
-font-size: 18px;
-font-weight:bolder;
-padding: 30px 0px;
+
+.header-desciption {
+    color: rgba(0, 0, 0, 0.447);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 30px 0px;
 }
+
 /* featured style starts from here */
-.featured-text{
+.featured-text {
     text-align: center;
 }
 
 
-.flower-img1{
+.flower-img1 {
     width: 300px;
-    height:450px ;
+    height: 450px;
     border-radius: 200px 200px 0px 0px;
     background-color: rgba(255, 192, 203, 0.847);
-    padding: 40px 40px 0px 40px ;   
+    padding: 40px 40px 0px 40px;
 }
-.flower-img2{
+
+.flower-img2 {
     width: 300px;
-    height:450px ;
+    height: 450px;
     border-radius: 200px 200px 0px 0px;
-    background-color:rgba(135, 207, 235, 0.469);
-    padding: 40px 40px 0px 40px ;   
+    background-color: rgba(135, 207, 235, 0.469);
+    padding: 40px 40px 0px 40px;
 }
-.flower-img3{
+
+.flower-img3 {
     width: 300px;
-    height:450px ;
+    height: 450px;
     border-radius: 200px 200px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
-    padding: 40px 40px 0px 40px ;   
+    padding: 40px 40px 0px 40px;
 }
-.featured-img{
+
+.featured-img {
     display: flex;
     justify-content: space-evenly;
     margin: 0px 90px;
-    
+
 }
-.flower-name{
+
+.flower-name {
     text-align: center;
     text-decoration: underline;
     font-size: 24px;
     font-weight: 700;
     padding-top: 30px;
 }
-.featured-title{
-font-size: 40px;
-font-weight: bolder;
-padding-bottom: 45px;
+
+.featured-title {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 45px;
 }
-.featured-description{
-color: rgba(0, 0, 0, 0.642);
-font-size: 20px;
-padding-bottom: 48px;
+
+.featured-description {
+    color: rgba(0, 0, 0, 0.642);
+    font-size: 20px;
+    padding-bottom: 48px;
 }
-.featured-container{
+
+.featured-container {
     padding: 80px 0px;
 }
 
-  
+/* sale section style starts here */
+.sale-container{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0px;
+}
+.sale-title{
+text-align: center;
+font-size: 40px;
+}
+.sale-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.642);
+    text-align: center;
+    padding: 30px 0px;
+}
+.sale-details{
+    text-align: center;
+}
