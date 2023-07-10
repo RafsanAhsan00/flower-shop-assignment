@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+}
+body{
     font-family: 'Acme', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
