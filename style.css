@@ -190,4 +190,24 @@ padding-top: 30px;
     padding: 20px 0px 40px 0px;
 }
 
-
+/* Footer style starts from here */
+.shop-footer{
+    width: auto;
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-title{
+    font-size: 50px;
+}
+.shop-description{
+    font-size: 22px;
+    padding: 20px 0px;
+}
+.shop-description2{
+    color:gray
+}
