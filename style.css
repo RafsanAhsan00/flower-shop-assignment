@@ -14,7 +14,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 /* shared style */
-.common-btn {
+.common-btn{
     border-radius: 6px;
     border: none;
     background-color: #E55473;
@@ -210,4 +210,33 @@ padding-top: 30px;
 }
 .shop-description2{
     color:gray
+}
+
+/* extra part style starts from here */
+.extra-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0px;
+    margin: 0px 40px;
+}
+.extra-text{
+    background-color: rgba(171, 99, 216, 0.319);
+    width: 520px;
+    height: 400px;
+    margin-left: 33%;
+    text-align: center;
+}
+.extra-title{
+    padding-top: 100px;
+    font-size:40px;
+}
+.extra-description{
+    padding: 20px 0px;
+    color: rgb(57, 53, 53);
+}
+.extra-img{
+    margin-right: 65px;
 }
